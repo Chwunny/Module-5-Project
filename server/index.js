@@ -8,6 +8,8 @@ app.use(cors());
 
 app.use(express.json()); // When we want to be able to accept JSON.
 
+
+
 app.get("/api/compliment", (req, res) => {
   const compliments = ["Gee, you're a smart cookie!",
 					 "Cool shirt!",
@@ -41,7 +43,6 @@ app.get("/api/fortune", (req, res) => {
   res.status(200).send(randomFortune);
 
 })
-
 
 
 app.listen(4000, () => console.log("Server running on 4000"));
