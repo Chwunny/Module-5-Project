@@ -17,6 +17,8 @@ app.use("/css", express.static(path.join(__dirname, '../client/styles.css')))
 
 app.use("/js", express.static(path.join(__dirname, '../client/main.js')))
 
+const port = process.env.PORT || 4005
+
 app.get("/api/compliment", (req, res) => {
   const compliments = ["Gee, you're a smart cookie!",
 					 "Cool shirt!",
@@ -52,4 +54,4 @@ app.get("/api/fortune", (req, res) => {
 })
 
 
-app.listen(4000, () => console.log("Server running on 4000"));
+app.listen(port, () => console.log(`Server up and running on ${port}`));
