@@ -23,7 +23,7 @@ const types = {
 }
 
 const fortuneButton = () => {
-    axios.get("http://localhost:4000/api/fortune/")
+    axios.get("https://pokedex-zk.herokuapp.com/api/fortune/")
     .then( res => {
         alert(res.data)
     });
