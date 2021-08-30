@@ -1,25 +1,25 @@
-// const basePhotoUrl = "/client/photos/"
+// const basePhotoUrl = " /photos/"
 let bestPokemonIds = [384, 151, 493, 38, 143, 157, 245, 25, 83, 135]
 
 const types = {
-    "bug" : "/client/photos/BugIC.png",
-    "dark" : "/client/photos/DarkIC.png",
-    "dragon" : "/client/photos/DragonIC.png",
-    "electric" : "/client/photos/ElectricIC.png",
-    "fairy" : "/client/photos/FairyIC.png",
-    "fighting" : "/client/photos/FightingIC.png",
-    "fire" : "/client/photos/FireIC.png",
-    "flying" : "/client/photos/FlyingIC.png",
-    "ghost" : "/client/photos/GhostIC.png",
-    "grass" : "/client/photos/GrassIC.png",
-    "ground" : "/client/photos/GroundIC.png",
-    "ice" : "/client/photos/IceIC.png",
-    "normal" : "/client/photos/NormalIC.png",
-    "poison" : "/client/photos/PoisonIC.png",
-    "psychic" : "/client/photos/PsychicIC.png",
-    "rock" : "/client/photos/RockIC.png",
-    "steel" : "/client/photos/SteelIC.png",
-    "water" : "/client/photos/WaterIC.png"
+    "bug" : "/photos/BugIC.png",
+    "dark" : "/photos/DarkIC.png",
+    "dragon" : "/photos/DragonIC.png",
+    "electric" : "/photos/ElectricIC.png",
+    "fairy" : "/photos/FairyIC.png",
+    "fighting" : "/photos/FightingIC.png",
+    "fire" : "/photos/FireIC.png",
+    "flying" : "/photos/FlyingIC.png",
+    "ghost" : "/photos/GhostIC.png",
+    "grass" : "/photos/GrassIC.png",
+    "ground" : "/photos/GroundIC.png",
+    "ice" : "/photos/IceIC.png",
+    "normal" : "/photos/NormalIC.png",
+    "poison" : "/photos/PoisonIC.png",
+    "psychic" : "/photos/PsychicIC.png",
+    "rock" : "/photos/RockIC.png",
+    "steel" : "/photos/SteelIC.png",
+    "water" : "/photos/WaterIC.png"
 }
 
 const fortuneButton = () => {
