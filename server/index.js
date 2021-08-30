@@ -17,6 +17,8 @@ app.use("/css", express.static(path.join(__dirname, '../client/styles.css')))
 
 app.use("/js", express.static(path.join(__dirname, '../client/main.js')))
 
+app.use('/photos', express.static(path.join(__dirname, '../client/photos')))
+
 const port = process.env.PORT || 4005
 
 app.get("/api/compliment", (req, res) => {
