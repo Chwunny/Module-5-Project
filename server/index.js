@@ -13,13 +13,9 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../client/index.html'))
 })
 
-app.get('/css', (req, res) => {
-  res.sendFile(path.join(--__dirname, '../client/styles.css'))
-})
+app.use("/css", express.static(path.join(__dirname, '../client/styles.css')))
 
-app.get('/js', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/main.js'))
-})
+app.use("/js", express.static(path.join(__dirname, '../client/main.js')))
 
 app.get("/api/compliment", (req, res) => {
   const compliments = ["Gee, you're a smart cookie!",
