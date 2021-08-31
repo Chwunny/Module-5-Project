@@ -17,6 +17,8 @@
     width: 100vw;
     justify-content: space-around;
     align-items: center;
+    background-image: linear-gradient(to right, #f6706f, #c64443);
+    border: solid black;
 }
 
 /* #pokemonContent {
@@ -29,11 +31,17 @@ body {
     font-size: 1em;
 }
 
+button {
+    background-color: #515151;
+    color: white;
+    border-radius: 2em;
+}
+
 #nameBox1 {
 height: 5vh;
 /* background-color: black; */
 position: absolute;
-top: 12.5vh;
+top: 13vh;
 left: 18vw;
 text-align: left;
 font-size: 3rem;
@@ -44,7 +52,7 @@ color: white;
 height: 5vh;
 /* background-color: black; */
 position: absolute;
-top: 55vh;
+top: 55.5vh;
 left: 61vw;
 text-align: left;
 font-size: 3rem;
@@ -54,7 +62,7 @@ color: white;
 #selectedId {
 height: 5vh;
 position: absolute;
-top: 55vh;
+top: 55.5vh;
 left: 53.5vw;
 text-align: left;
 font-size: 3rem;
